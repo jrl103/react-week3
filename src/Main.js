@@ -171,3 +171,34 @@ const AddBtn = styled.div`
 `;
 
 export default Main;
+
+
+
+
+{/* <CardWrap>
+              <ContentBox>
+                <CardHead>
+                  <CardUserBox>
+                    <UserName>name</UserName>
+                  </CardUserBox>
+                  <UpdateBox>
+                    <UpdateTime>2022.06.09</UpdateTime>
+                    <UpdateBtn
+                      onClick={() => {
+                        navigate("/UpdatePage");
+                      }}
+                    >
+                      수정
+                    </UpdateBtn>
+                  </UpdateBox>
+                </CardHead>
+                <CardText>{post[0].contents}</CardText>
+                <CardImg src={post[0].image_url}/>
+                <CardFoot>
+                  <LikesCount>좋아요 0개</LikesCount>
+                  <LikeBtn>
+                    <HeartOutlined />
+                  </LikeBtn>
+                </CardFoot>
+              </ContentBox>
+            </CardWrap> */}
